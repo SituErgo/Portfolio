@@ -1,40 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Your Name | Code 2 Portfolio</title>
+    <title>Ergou | Small monster generator</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="style.css" />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
 
-  <body>
+  <body style="background-color:#fbcd12">
+   
     <!-- navigation menu -->
-    <div class="nav">
-      <h1>Your Name</h1>
+<div class="sidenav">
+    <h1><a href="index.html">Ergou</a><br/><br/><br/></h1>
+    <h3>Instruction<br />
+        Click left mouse button to change the shape and the color of the monster.<br /><br /><br/><br/>
+        Design process<br/><br/>
+        STEP 1 Idea<br/>
+ Every time people click the left mouse, the program will generate a new tiny monster with a different shape, color, and eyes.<br/><br/>
+STEP 2 Parameter<br/>
+SHAPE: the control point of the shape<br/>
+COLOR: the RGB value <br/>
+EYES: the position of the center point of the eyes； the circle radius(the eyeball)； the ellipse width, and the height(whites of the eyes)<br/><br/>
+STEP 3 User interaction <br/>
+To make it more interesting, I made the eyes follow the cursor and the monster move with the cursor.<br/>
+
+ 
+           
+      </h3>
+    <!-- navigation menu -->
+<!--<div class="container">
+  <div class="sidenavi">
+      <h1><a href="index.html">Ergou</h1>
       <ul>
-        <li>Project <a href="p1.html">#1</a></li>
-        <li>Project <a href="p2.html">#2</a></li>
-        <li>Project <a href="p3.html">#3</a></li>
+        <li><a href="p1.html">+Lines</a></li>
+<li><li><a href="p2.html">+Lost & Found </a></li>
+Project <a href="p3.html">#3</a></li>
         <li>Project <a href="p4.html">#4</a></li>
         <li>Project <a href="p5.html">#5</a></li>
         <li>Project <a href="p6.html">#6</a></li>
         <li>Project <a href="p7.html">#7</a></li>
         <li>Project <a href="p8.html">#8</a></li>
-        <li>Project <a href="p9.html">#9</a></li>
-      </ul>
+        <li>Project <a href="p9.html">#9</a></li>-->
+    
+  </div>
+
+<!-- 
+<div class="container">
+    <div class="sidenav">
+    <p></p>
     </div>
+</div> -->
+
+
 
     <!-- main content -->
     <div class="content">
-      <p>
-        Coming soon
-      </p>
-    </div>
+      <!-- 1. give your project  a titile -->
+
+      <h2>
+      Small monster generator
+      
+      </h2>
+     
+      
+      <!-- 2. embed your p5 sketch -->
+
+      <div class="fullwidth">
+        <!-- below width and height refers to the dimensions of your sketch-->
+        <iframe 
+        style="width:600px; height:600px"
+        src="https://editor.p5js.org/nzhen/full/LijHiUEUX"></iframe>
+        <br/><br/>
+        <img STYLE="position:absolute; TOP:800px; RIGHT:0px; WIDTH:600px; HEIGHT:600px"
+
+      src="sketch.png">
+
+
+      </div>
+
+
   </body>
 </html>
